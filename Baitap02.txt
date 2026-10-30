@@ -5,11 +5,11 @@ Bài 2 : Quản lý Quyền truy cập Báo cáo Tài chính
          - Kịch bản xử lý sự cố: Quy trình 3 bước xử lý khi phát hiện dữ liệu bị chia sẻ sai quyền.
 *Cách làm bài.
 -Bảng thiết kết là:
-+Trưởng phòng nhân sự ( chủ sở hữu )
++Trưởng phòng nhân sự ( người chỉnh sửa )
 +Nhân viên (người chỉnh sửa )
-+Ứng cử viên (người xem )
++Ứng cử viên ( không có quyền )
 +Các trưởng bộ phận ( người bình luận )
 -Kịch bản sử lý sự cố là:
-     B1: Ngay lập tức tắt quyền chia sẻ hoặc đổi tất cả về người xem
-     B2: Ra soát lại dữ liệu và lịch sử chỉnh sửa, tải file về
-     B3: thu hồi lại nếu có file hay dữ liệu rò rỉ và phân lại quyền cho chính xác nhờ bảng phân quyền
+     B1: Ngay lập tức tắt/thu hồi quyền chia sẻ hoặc đổi tất cả về người xem
+     B2: Ra soát lại dữ liệu và lịch sử chỉnh sửa, tải file về thu hồi lại nếu có file hay dữ liệu rò rỉ 
+     B3: phân lại quyền cho chính xác nhờ bảng phân quyền, đánh giá thiệt hại vả rút kinh nghiệm
