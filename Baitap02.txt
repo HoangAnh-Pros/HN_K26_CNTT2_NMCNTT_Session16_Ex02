@@ -1,0 +1,15 @@
+Bài 2 : Quản lý Quyền truy cập Báo cáo Tài chính
+*Vấn đề: Có người đã gửi nhầm link file với quyền truy cập editor cho 1 ứng viến bên ngoài.
+*Yêu cầu:- Bản thiết kế phân quyền: Bảng phân loại đối tượng tương ứng với các mức quyền truy cập an toàn nhất.
+
+         - Kịch bản xử lý sự cố: Quy trình 3 bước xử lý khi phát hiện dữ liệu bị chia sẻ sai quyền.
+*Cách làm bài.
+-Bảng thiết kết là:
++Trưởng phòng nhân sự ( chủ sở hữu )
++Nhân viên (người chỉnh sửa )
++Ứng cử viên (người xem )
++Các trưởng bộ phận ( người bình luận )
+-Kịch bản sử lý sự cố là:
+     B1: Ngay lập tức tắt quyền chia sẻ hoặc đổi tất cả về người xem
+     B2: Ra soát lại dữ liệu và lịch sử chỉnh sửa, tải file về
+     B3: thu hồi lại nếu có file hay dữ liệu rò rỉ và phân lại quyền cho chính xác nhờ bảng phân quyền
